@@ -359,8 +359,8 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <inline-jdbc
                 jdbc-driver="com.mysql.cj.jdbc.Driver"
                 jdbc-uri="jdbc:mysql://127.0.0.1/ofbiz?autoReconnect=true&amp;characterEncoding=UTF-8"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-username="root"
+                jdbc-password="admin"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
